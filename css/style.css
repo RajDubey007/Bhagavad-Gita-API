@@ -1,0 +1,46 @@
+body{
+    background: rgb(6,0,124);
+  background: linear-gradient(90deg, #06007c 0%, rgba(0,73,96,1) 57%, rgba(0,156,188,1) 100%);
+}
+
+h2{
+  font-size: 30px;
+  color:white;
+  font-family:fantasy;
+  text-align: center;
+  font-weight: bolder;
+}
+
+p{
+  color: white;
+}
+.line{
+  width: 1300px;
+  height: 1px;
+  background-color: white;
+  margin-top: 7%;
+}
+.chapter{
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  flex-direction: column;
+}
+.count{
+  background-color: orangered;
+  width: 250px;
+  height: 55px;
+  border-radius: 30px;
+}
+.Verses{
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+#modalVersesContent , .modal-header ,.modal-footer{
+
+  background: rgb(6,0,124);
+  background: linear-gradient(90deg, #06007c 0%, rgba(0,73,96,1) 57%, rgba(0,156,188,1) 100%);
+}
